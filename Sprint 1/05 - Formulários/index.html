@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <!-- Seu código aqui -->
+        <form action="/">
+            <fieldset>
+                <legend>Cadastro de usuário</legend>
+
+                <label for="mail">Email:</label>
+                <input id="mail" type="email" name="mail" placeholder="teste@mail.com" required/>
+
+                <label for="pass">Senha:</label>
+                <input id="pass" type="password" name="pass" placeholder="Sua senha aqui" required/>
+                
+                <label>Data de nascimento:</label>
+                <input type="date"/>
+            
+                <label for="perfil_cor">Cor do perfil</label>
+                <input type="color" id="perfil_cor" name="color"/>
+
+                <section>
+                    <p>Selecione a sua turma:</p>
+                    <div>
+                        <input type="radio" name="turma" id="turma_17" value="17">
+                        <label for="turma_17">Turma 17 (T17)</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="turma" id="turma_18" value="18">
+                        <label for="turma_18">Turma 18 (T18)</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="turma" id="turma_19" value="19" checked>
+                        <label for="turma_19">Turma 19 (T19)</label>
+                    </div>
+                </section>
+
+                <section>
+                    <label for="instrutor">Instrutor(a)</label>
+                    <select id="instrutor" name="intrutor">
+                        <option disabled selected value="">Selecione uma opção...</option>
+                        <option value="ale">Alessandra</option>
+                        <option value="lore">Lorena</option>
+                        <option value="kayan">Kayan</option>
+                        <option value="luis">Luis</option>
+                        <option value="tk">Thiago</option>
+                        <option value="vilson">Vilson</option>
+                        <option value="wesley">Wesley</option>
+                        
+                    </select>
+                </section>
+
+                <section>
+                    <label for="input_desc">Descrição</label>
+                    <textarea id="input_desc" placeholder="Digite a sua descrição aqui..." name="descricao" maxlength="50" cols="150" rows="5"></textarea>
+                </section>
+
+                <button>Realizar envio</button>
+                <input type="submit" value="Realizar envio 2">
+            </fieldset>
+        </form>
+    </body>
+</html>
