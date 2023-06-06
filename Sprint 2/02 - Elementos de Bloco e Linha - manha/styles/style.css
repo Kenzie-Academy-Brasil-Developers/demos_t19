@@ -1,0 +1,62 @@
+body {
+  padding: 30px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.primeira {
+  background-color: red;
+  width: 200px;
+  height: 200px;
+
+  border: 2px solid;
+  padding: 20px;
+  margin: 20px;
+}
+
+.linha {
+  /* Elemento de linha */
+  /* display: inline; */
+
+  /* Elemento de bloco */
+  /* display: block; */
+
+  /* Elemento de linha-bloco */
+  display: inline-block;
+}
+
+.segunda {
+  background-color: green;
+  width: 300px;
+  height: 300px;
+
+  /* Borda */
+  border: 3px solid;
+  /* border-top: 2px; */
+  /* border-style: solid;
+  border-color: #000000; */
+
+  /* Espaçamento interno */
+  padding: 30px;
+  /* padding-top: 20px; */
+
+  /* Espaçamento externo */
+  margin: 30px;
+  /* margin: 30px 20px 25px 15px; */
+  /* margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 30px;
+  margin-right: 30px; */
+
+  /* box-sizing: border-box; */
+}
+
+.texto {
+  color: whitesmoke;
+  background-color: blueviolet;
+
+  height: 50px;
+  width: 100px;
+  display: block;
+
+  margin: auto;
+}
