@@ -1,0 +1,9 @@
+CSS Reset:
+https://meyerweb.com/eric/tools/css/reset/
+
+CSS background - W3Schools:
+https://fonts.google.com/
+
+CSS Unidades de medida - W3Schools:
+https://www.w3schools.com/cssref/css_units.php
+
