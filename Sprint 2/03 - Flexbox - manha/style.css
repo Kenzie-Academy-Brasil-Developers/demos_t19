@@ -1,0 +1,47 @@
+section {
+  height: 500px;
+  width: 100vw;
+  background: rgb(21, 92, 0);
+  /* background-color: rgb(21, 92, 0);
+    background-image: url("https://img.freepik.com/free-vector/speed-lights-background-theme_23-2148604784.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat; */
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+div {
+  height: 100px;
+  width: 100px;
+
+  /* Unidades relativas */
+  /* Viewport Height */
+  /* height: 30vh; */
+  /* Porcentagem */
+  /* width: 50%; */
+  /* Viewport Width */
+  /* width: 80vw; */
+
+  background: black;
+  border: 3px solid whitesmoke;
+
+  color: whitesmoke;
+  font-size: 25px;
+}
+
+.number {
+  color: black;
+  background-color: aliceblue;
+  font-weight: bold;
+  font-style: italic;
+  height: 50px;
+
+  /* display: inline; */
+  /* display: block; */
+  display: inline-block;
+}
