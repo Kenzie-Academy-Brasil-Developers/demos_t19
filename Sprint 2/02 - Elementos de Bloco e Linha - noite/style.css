@@ -1,0 +1,63 @@
+p{
+    color: red;
+}
+
+.inline-element{
+    display: inline;
+}
+
+.inline-block-element{
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+}
+
+.inline-block-image{
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+}
+
+.box-model{
+    background: black;
+    height: 100px;
+}
+
+.box{
+    box-sizing: border-box;
+    display: inline-block;
+    background: green;
+    height: 60px;
+    width: 60px;
+    border: 10px solid white;
+    margin: 12px;
+    padding: 7px;
+}
+
+img{
+    width: 100px;
+}
+
+article{
+    background: white;
+    width: 20px;
+    height: 20px;
+    border: 1px solid blue;
+}
+
+.exemplo-imagem{
+    text-align: center;
+}
+
+
+/* 
+inline - não é possivel configurar o tamanho, mas alinha um elemento ao lado do outro
+block - é possivel configurar o tamanho, mas ocupa toda a largura disponivel
+inline-block - é possivel configurar o tamanho e alinha um elemento ao lado do outro
+*/
+
+/* 
+nome - tag
+.nome - class
+#nome - id
+*/
