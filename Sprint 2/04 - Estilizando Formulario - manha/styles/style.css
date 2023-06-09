@@ -1,0 +1,138 @@
+body {
+  height: 100vh;
+  max-width: 1280px;
+  margin: auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+  width: 720px;
+  height: 580px;
+  box-shadow: 7px 6px 28px 0px rgba(56, 56, 56, 1);
+  display: flex;
+}
+
+.info-section {
+  background-color: rgb(37, 117, 187);
+  width: 40%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  color: whitesmoke;
+}
+
+.info-section .perfil-container .perfil {
+  width: 150px;
+  height: 150px;
+
+  margin-top: 30px;
+  margin-bottom: 10px;
+
+  border: solid 2px;
+  border-color: transparent;
+  border-radius: 50%;
+}
+
+.info-section .perfil-container .perfil:hover {
+  border-color: whitesmoke;
+}
+
+.info-section .perfil-container h1 {
+  font-size: 28px;
+  font-weight: bold;
+
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.info-section .perfil-container:hover h1 {
+  color: rgb(9, 9, 9);
+}
+
+.info-section .info-container {
+  width: 80%;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.info-section .info-container img {
+  height: 20px;
+  width: 20px;
+}
+
+.info-section .info-container p {
+  font-size: 16px;
+  margin-left: 5px;
+}
+
+.info-section .info-container a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 50px;
+}
+
+form h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+form .inputs-conteiner {
+  display: flex;
+  gap: 5px;
+}
+
+form .input-box {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+form .input-box label {
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+form .input-box input,
+form .input-box textarea {
+  border: none;
+  border-bottom: 1px solid rgba(40, 40, 40, 0.477);
+
+  padding-bottom: 7px;
+}
+
+form .input-box input:focus-visible,
+form .input-box textarea:focus-visible {
+  outline: none;
+  border-color: rgb(28, 138, 235);
+}
+
+form button {
+  width: 150px;
+  height: 50px;
+  background-color: rgb(37, 117, 187);
+
+  border: none;
+  border-radius: 3%;
+  margin-top: 20px;
+
+  color: whitesmoke;
+  font-size: 14px;
+}
+
+form button:hover {
+  background-color: rgb(28, 138, 235);
+}
