@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+*{
+    font-family: 'Poppins', sans-serif;
+}
+/* Estilização */
+
+body{
+    background: rgb(247, 247, 247);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100vh;
+}
+
+/* HEADER */
+ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+li{
+    text-align: center;
+    width: 20%;
+}
+
+i{
+    background: #46b5d1;
+    color: white;
+    padding: 20px;
+    border-radius: 100%;
+    width: 16px;
+    height: 16px;
+    margin-bottom: 16px;
+}
+
+.text-box{
+    color: #46b5d1;
+}
+
+header{
+    height: 20vh;
+}
+
+header, main{
+    margin: 0 20% ;
+}
+
+.header-p{
+    line-height: 25px;
+}
+
+/* MAIN */
+
+main{
+    background: white;
+    display: flex;
+    height: 60vh;
+}
+
+.container{
+    width: 60%;
+    padding: 40px 30px;
+}
+
+.aside{
+    width: 40%;
+    background-image: url('https://preview.colorlib.com/theme/bootstrap/contact-form-03/images/img.jpg.webp');
+    background-position: center;
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
+
+.aside > img{
+    width: 100%;
+    max-height: 100%;
+}
+
+
+h2{
+    font-size: 28px;
+}
+
+label{
+    text-transform: uppercase;
+    font-size: 12px;
+    display: block;
+    font-weight: bold;
+}
+
+input, textarea{
+    border: none;
+    border-bottom: 1px solid grey;
+    width: 100%;
+    
+}
+input:focus, textarea:focus{
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    border-bottom: 1px solid #46b5d1;   
+}
+
+input{
+    height: 40px;
+}
+textarea{
+    height: 80px;
+}
+
+input,textarea,h2{
+    margin-bottom: 20px;
+}
+
+.metade{
+    width: 50%;
+}
+
+.inputs-user{
+    display: flex;
+    gap: 20px;
+}
+
+.send-button{
+    background: #46b5d1;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
+/* input:focus{
+    border-bottom: 1px solid #46b5d1;
+} */
