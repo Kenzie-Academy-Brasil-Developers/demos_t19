@@ -1,0 +1,11 @@
+1. Desafio do login: Crie um sistema de login que solicita ao usuário seu nome de usuário e senha. Se o nome de usuário e a senha estiverem corretos, exiba uma mensagem de boas-vindas. Caso contrário, exiba uma mensagem informando que o nome de usuário ou a senha estão incorretos.
+
+2. Desafio do jogo de dados: Crie um jogo de dados simples em que o usuário jogue um dado e tente adivinhar se o próximo número será maior ou menor. Se o usuário acertar, exiba uma mensagem de parabéns. Caso contrário, exiba uma mensagem informando que ele perdeu. Você pode usar a função Math.random() para gerar os números aleatórios.
+
+3. Desafio do cadastro: Crie um formulário de cadastro que solicita ao usuário seu nome, endereço de e-mail e idade. Se a idade do usuário for menor que 18 anos, exiba uma mensagem informando que ele é menor de idade e não pode se cadastrar. Caso contrário, exiba uma mensagem de boas-vindas. Se o usuário tiver mais de 70 anos, não paga a entrada.
+
+4. Desafio da calculadora: Crie uma calculadora simples que solicita ao usuário dois números e uma operação (adição, subtração, multiplicação ou divisão). Em seguida, exiba o resultado da operação. Use condicionais para verificar qual operação foi selecionada e realizar o cálculo correto.
+
+5. Desafio da senha segura: Crie um formulário de cadastro que solicita ao usuário um nome de usuário e uma senha. A senha deve ter pelo menos oito caracteres Use condicionais para verificar se a senha atende a esses critérios e exiba uma mensagem de erro caso contrário.
+
+6. Desafio do jogo de advinhação: Crie um jogo em que o computador escolhe um número aleatório entre 1 e 100 e o usuário tem que adivinhar qual é o número. O jogo deve informar se o número inserido pelo usuário é maior ou menor do que o número secreto. 
