@@ -15,31 +15,31 @@ function darBoasVindas() {
 }
 
 nome = "Luiz";
-// darBoasVindas();
+darBoasVindas();
 
 // --------------------------------------------------------
 //  Funções sem Entrada
 
-// function calculadora() {
-//   const primeiroNumero = parseFloat(prompt("Digite o primeiro número:"));
-//   const operacao = prompt("Digite a operação:");
-//   const segundoNumero = parseFloat(prompt("Digite o segundo número:"));
+function calcula() {
+  const primeiroNumero = parseFloat(prompt("Digite o primeiro número:"));
+  const operacao = prompt("Digite a operação:");
+  const segundoNumero = parseFloat(prompt("Digite o segundo número:"));
 
-//   if (operacao === "+") {
-//     return primeiroNumero + segundoNumero;
-//   } else if (operacao === "-") {
-//     return primeiroNumero - segundoNumero;
-//   } else if (operacao === "*") {
-//     return primeiroNumero * segundoNumero;
-//   } else if (operacao === "/") {
-//     return primeiroNumero / segundoNumero;
-//   } else {
-//     return "Operação invalida!";
-//   }
-// }
+  if (operacao === "+") {
+    return primeiroNumero + segundoNumero;
+  } else if (operacao === "-") {
+    return primeiroNumero - segundoNumero;
+  } else if (operacao === "*") {
+    return primeiroNumero * segundoNumero;
+  } else if (operacao === "/") {
+    return primeiroNumero / segundoNumero;
+  } else {
+    return "Operação invalida!";
+  }
+}
 
-// const resultado = calculadora();
-// console.log(resultado);
+const resultado = calcula();
+console.log(resultado);
 
 // --------------------------------------------------
 // Funções com Entrada
