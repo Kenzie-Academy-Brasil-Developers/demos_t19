@@ -61,6 +61,7 @@ const global = "global";
 function funcao() {
   //   console.log(global);
   var escopoFuncao = "função";
+  escopo = "Escopo"; // Por traz dos panos se torna um var
   //   console.log(escopoFuncao);
   if (true) {
     // console.log(escopoFuncao);
