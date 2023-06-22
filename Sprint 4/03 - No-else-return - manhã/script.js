@@ -1,92 +1,138 @@
-// Formatação de data
-function formataDecimalData(num) {
-  num = `${num}`;
+//Revisão da demo de ontem
 
-  if (num.length < 2) {
-    return "0" + num;
-  }
+// Escopos
 
-  return num;
+// Escopo global
+// Escopos de bloco
+// Escopos de função
+
+// let escopoGlobal = 'global';
+
+// {
+//     let escopoBloco = 'bloco';       
+//     var escopoBloco_var = 'bloco';       
+// }
+
+// function teste(){
+//     let escopoFuncao = 'Função';
+//     var escopoFuncao_var = 'Função';
+// }
+
+
+// EXEMPLOS DE FUNÇÕES UTILIZADAS NO DIA-A-DIA
+
+function format2Decimals(n){ 
+    let str = `${n}`;
+    if(str.length < 2){
+        return '0'+str; 
+    }else{
+        return str;
+    }
+} 
+// console.log(format2Decimals('1'));
+
+
+function checkPair(n){
+    if(n%2 == 0){
+        return true;
+    }
+    return false;
+}
+// console.log(checkPair(321))
+
+
+function isMultiple(n,div){
+
+/**
+ * 50 / 5 = 10 -> true
+ * 3 / 2 = 1.5 -> false
+ */
+    if(n%div == 0){
+        return true;
+    }
+    return false;
+}
+// console.log(isMultiple(3,2));
+
+
+// Verificar se um numero é inteiro
+function isInteger(n){
+/*
+ 1 -> true
+ 1.5 -> false
+
+ 1.5 === 1 -> false
+*/
+
+    if(n === parseInt(n)){
+        return true;
+    }
+    return false;
+    
+}
+// console.log(isInteger(1.5));
+
+
+function findMaxString(str1, str2){
+    if(str1.length > str2.length){
+        return str1;
+    }else if(str1.length < str2.length){
+        return str2;
+    }else{
+        return str1; 
+    }
+}
+// console.log(findMaxString('Paralelepipedo', 'Tigre'));
+
+function isString(param){
+    if(param === `${param}`){
+        return true;
+    }
+    return false;
+}
+// console.log(isString(true));
+
+function isNumber(param){
+    if(typeof param === 'number'){
+        return true;
+    }
+    return false;
+}
+// console.log(isNumber('123'));
+
+
+// NO-ELSE-RETURN
+
+function qualquer(){
+    if(true == false){
+        return true;
+    }else{
+        return false;
+    }
 }
 
-let dia = 2;
-let mes = "6";
-const ano = "23";
-
-// 20/06/2023
-// dia/mes/ano
-
-const dataCompleta = `${formataDecimalData(dia)}/${formataDecimalData(
-  mes
-)}/${ano}`;
-
-// console.log(formataDecimalData(2)); // "02"
-// console.log(formataDecimalData(30)); // "30"
-// console.log(dataCompleta);
-
-// Função que verifica se um número é par
-
-function ePar(numero) {
-  if (numero % 2 === 0) {
-    return true;
-  }
-
-  return false;
-  console.log("Não cheguei aqui");
+function noElseReturn(){
+    if(true == false){
+        return true;
+    }
+    return false;
 }
 
-// console.log(ePar(3));
-// console.log(ePar(112));
-
-// Função que verifica se o segundo parâmetro é divisor do primeiro parâmetro
-
-// No-else-return -> Não utilizar o else, mas somente um return
-function eDivisor(numero, divisor) {
-  if (numero % divisor === 0) {
-    return true;
-  }
-
-  return false;
-}
-
-// console.log(eDivisor(111, 3)); //true
-// console.log(eDivisor(111, 11)); //false
-// console.log(eDivisor("a", "a")); //false
-
-// -----------------------------------
-// Atribuindo uma função em uma variável
-function vaca() {
-  return "muuuuuuuu";
+// Renomear uma função (apontamento de função)
+function vaca(){
+    console.log('muuuuuu');
 }
 
 const mimosa = vaca;
-console.log(vaca());
-console.log(mimosa());
+// mimosa();
+// vaca();
 
-// --------------------------------
-// Tira-dúvidas
+const funcaoPadrao = qualquer;
+// console.log(funcaoPadrao());
 
-// function eDivisor(numero, divisor) {
-//   if (numero % divisor === 0) {
-//     return true;
-//   }
 
-//   return false;
-// }
+function teste(n1, n2){
+    return n1 + n2;
+}
 
-// const entradaNumero = prompt("Digite um número");
-// const entradaDivisor = prompt("Digite o divisor");
-
-// const resultadoUsuario = eDivisor(entradaNumero, entradaDivisor);
-// const resultadoInterno = eDivisor(4, 3);
-
-// console.log(resultadoUsuario);
-// console.log(resultadoInterno);
-
-// -----------------------------
-// function ePar(numero) {
-//   return numero % 2 === 0;
-// }
-
-// console.log(ePar(2)); //true
-// console.log(ePar(7)); //false
+console.log(teste(1,3))
