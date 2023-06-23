@@ -1,0 +1,31 @@
+1. Executando a função com os parâmetros (2,5,'*')
+2. Função calculadora vai receber os parametros
+  a -> 2
+  b -> 5
+  op -> '*'
+
+3. Declaração das funções
+  soma()
+  subtracao()
+  multiplicacao()
+  divisao()
+  verificaOperacao()
+
+4. Declarando uma variavel e executando a função verificaOperacao()
+
+5. Será executada a função verificaOperacao()
+
+6. if('*' == '+') -> false
+7. else if('*' == '-') -> false
+8. else if('*' == '*') -> true
+9. Será excutado o códgo dentro do escopo do if
+
+10. Será executada a função multiplicacao(2,5)
+
+11. A função Multiplicação retorna 2*5 -> 10
+
+12. retornamos para a função verifica operação, que por sua vez, retorna o valor recebido.
+
+13. Atualizamos o valor da variavel resultado com o retorno na função verificaOperacao
+
+14. Imprimir o resultado no console
