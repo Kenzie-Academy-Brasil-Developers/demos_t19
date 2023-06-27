@@ -1,0 +1,42 @@
+1. Escreva uma função que recebe uma string e
+  uma letra, procure a letra na string e a torna
+  maiuscula se encontrada, retornando a string modificada.
+
+---------------------------------------------------------------------------------------
+
+2. Desenvolva uma função que recebe uma string qualquer, e verifica se é
+um palindromo. O retorno da sua função deve ser true, caso o texto seja
+um palindromo ou false caso não. Sua função não deve diferenciar letras
+maiúsculas de minusculas.
+
+OBS. Palindromos são frases ou palavras que podem ser lidas, indiferentemente, da esquerda para a
+direita,conforme o sentido habitual da leitura, ou da direita para a esquerda, sem que haja mudança
+da sua significação.
+
+Exemplos de palavras: 
+
+— OSSO 
+
+— salas 
+
+— ralar 
+
+— radar
+
+— reviver 
+
+— rodador 
+
+Exemplos de frases:
+
+— Anotaram a data da maratona
+
+— A mala nada na lama
+
+— O lobo ama o bolo
+
+— A sacada da casa
+
+— Missa é assim
+
+— O romano acata amores a damas amadas e Roma ataca o namoro
