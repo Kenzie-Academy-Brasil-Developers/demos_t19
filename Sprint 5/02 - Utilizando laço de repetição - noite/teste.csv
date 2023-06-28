@@ -1,0 +1,11 @@
+i;SLC[i];ST;i >= 0
+5;'e';'e';true
+4;'i';'ei';true
+3;'z';'eiz';true
+2;'n';'eizn';true
+1;'e';'eizne';true
+0;'k';'eiznek';true
+-1;-;'eiznek';false
+;;;
+;;;
+;;;
