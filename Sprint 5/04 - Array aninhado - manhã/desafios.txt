@@ -1,0 +1,12 @@
+[ Observar imagem 1-piramide-numerica.png com o enunciado do desafio ]
+
+Crie uma função chamada piramideNumerica(tamanhoPiramide) que receba como argumento 
+um número inteiro e imprima uma pirâmide numérica de tamanho tamanhoPiramide na tela.
+Exemplo piramideNumerica(5):
+
+1 
+1  2 
+1  2  3 
+1  2  3  4 
+1  2  3  4  5
+

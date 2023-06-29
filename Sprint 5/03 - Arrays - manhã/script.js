@@ -30,6 +30,7 @@ const primeiroArray = [10, 20, 30, 40, 50, 100, 200];
 // segundoArray[2] = "Alface";
 // console.log(segundoArray[2]);
 
+// -------------------------------------------------------
 // Metodos de Array
 const terceiroArray = ["Vilson"];
 // console.log(terceiroArray);
@@ -63,6 +64,7 @@ terceiroArray.splice(1, 0, "Ale");
 // terceiroArray.shift();
 // console.log(terceiroArray);
 
+// -------------------------------------------------------
 /*
   [x] -> Percorrendo cada um dos elementos do array
   [x] -> Verificando se o elemento é identico ao valor passado em instrutor
@@ -98,6 +100,7 @@ console.log(encontraInstrutor(terceiroArray, "Lore"));
 
 console.table(terceiroArray);
 
+// ------------------------------------------------------------
 // console.log(terceiroArray[1][0]);
 let instrutor = terceiroArray[1];
 // console.log(instrutor);
