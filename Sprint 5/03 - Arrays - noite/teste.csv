@@ -1,0 +1,8 @@
+i;arr[i];nome;nome == str;" i<arr.length"
+0;'Thiago';'Thiago';false;0<4 -> true
+1;'Gabriel';'Gabriel';false;1<4 -> true
+2;'Taina';'Taina';true;2<4 -> true
+;;;;
+;;;;
+;;;;
+;;;;
