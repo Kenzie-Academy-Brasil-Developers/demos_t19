@@ -1,0 +1,21 @@
+1. Desafio do login: Crie um sistema de login que solicita ao usuário seu nome de usuário e senha. Se o nome de usuário e a senha estiverem corretos, exiba uma mensagem de boas-vindas. Caso contrário, exiba uma mensagem informando que o nome de usuário ou a senha estão incorretos e peça que o usuário tente novamente.
+
+2. Desafio do jogo de dados: Crie um jogo de dados simples em que o usuário jogue um dado e tente adivinhar se o próximo número será maior ou menor. Se o usuário acertar, exiba uma mensagem de parabéns. Caso contrário, exiba uma mensagem informando que ele perdeu e peça que o usuário tente novamente. Você pode usar a função Math.random() para gerar os números aleatórios.
+
+3. Desafio da senha segura: Crie um formulário de cadastro que solicita ao usuário um nome de usuário e uma senha. A senha deve ter pelo menos oito caracteres Use condicionais para verificar se a senha atende a esses critérios e exiba uma mensagem de erro caso contrário e peça que o usuário tente novamente.
+
+4. Desafio do jogo de adivinhação: Crie um jogo em que o computador escolhe um número aleatório entre 1 e 100 e o usuário tem que adivinhar qual é o número. O jogo deve informar se o número inserido pelo usuário é maior ou menor do que o número secreto, caso erre o peça que o usuário tente novamente. 
+
+
+----------------------------------------------------------------------
+Desafio importado do Codewars:
+Seu colega escreveu um loop simples para listar seus animais favoritos. Mas parece haver um pequeno erro de gramática, que impede o funcionamento do programa. Consertá-lo! :)
+
+Se você passar a lista de seus animais favoritos para a função, deverá obter a lista dos animais com ordenações e novas linhas adicionadas.
+
+Por exemplo, passando:
+
+animals = [ 'dog', 'cat', 'elephant' ]
+vai resultar em:
+
+list_animals(animals) == '1. dog\n2. cat\n3. elephant\n'
