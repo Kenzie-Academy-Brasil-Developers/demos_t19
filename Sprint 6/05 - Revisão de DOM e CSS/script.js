@@ -24,11 +24,26 @@ const arrayPokemons = [
     defesa: 60,
     velocidade: 65,
     imagem: "imgs/flareon.svg",
-    tipo: "fogo",
+    tipo: "normal",
+  },
+  {
+    nome: "Mr. Mime",
+    vida: 65,
+    ataque: 130,
+    defesa: 60,
+    velocidade: 65,
+    imagem: "imgs/mr-mime.svg",
+    tipo: "normal",
   },
 ];
 
-function criarCard() {
+function criarCard(arrayPokemons) {
+  /*
+    Desafio:
+    Implementar forma dinâmica de renderizar o array de pokemons utilizando
+    loop dentro da função.
+  */
+
   // div container que receberá como filho a nossa div card
   const divCardContainer = document.querySelector(".container");
 
@@ -108,4 +123,69 @@ function criarCard() {
   console.log(divCard);
 }
 
-criarCard();
+criarCard(arrayPokemons);
+
+// const tipoFogo = [];
+// const tipoNormal = [];
+
+// EXTRA:
+function dividePokemonPorTipo(arrayPokemons) {
+  const tipoFogo = [];
+  const tipoNormal = [];
+
+  for (let i = 0; i < arrayPokemons.length; i++) {
+    const pokemonAtual = arrayPokemons[i];
+
+    // if (pokemonAtual.tipo === "fogo") {
+    if (arrayPokemons[i].tipo === "fogo") {
+      tipoFogo.push(pokemonAtual);
+    } else {
+      tipoNormal.push(pokemonAtual);
+    }
+  }
+
+  return { fogo: tipoFogo, normal: tipoNormal };
+  // console.log(tipoFogo);
+  // console.log(tipoNormal);
+}
+
+const resultado = dividePokemonPorTipo(arrayPokemons);
+console.log(resultado.normal);
+
+// console.log(tipoFogo);
+// console.log(tipoNormal);
+
+// Exemplo de innerHTML:
+/* 
+  const divCardContainer = document.querySelector(".container");
+  divCardContainer.innerHTML += `<div class="card">
+  <!-- HP -->
+  <p class="hp">
+    <span>HP</span>
+    40
+  </p>
+  <!-- Imagem do Pokemon -->
+  <img src="imgs/charmeleon.svg" alt="" />
+  <!-- Nome do Pokemon -->
+  <h2 class="nome-pokemon">Charmeleon</h2>
+  <!-- Tipo -->
+  <div class="tipo">
+    <span>Fogo</span>
+  </div>
+  <!-- Caracteristicas de Atq / Def / Vel -->
+  <div class="caracteristicas">
+    <div>
+      <h3>65</h3>
+      <p>Atq</p>
+    </div>
+    <div>
+      <h3>50</h3>
+      <p>Def</p>
+    </div>
+    <div>
+      <h3>40</h3>
+      <p>Vel</p>
+    </div>
+  </div>
+</div>`;
+*/

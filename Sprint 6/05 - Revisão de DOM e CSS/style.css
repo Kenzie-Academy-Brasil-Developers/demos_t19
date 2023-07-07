@@ -16,7 +16,7 @@ body {
 }
 
 .card {
-  padding: 30px 20px;
+  padding: 1rem;
   margin: 1rem;
   box-shadow: 0 20px 30px rgba(0, 0, 0, 0.5);
   border-radius: 12px;
@@ -32,8 +32,13 @@ body {
   font-weight: 400;
 }
 
+.hp span {
+  /* color: blue; */
+  font-size: 0.8rem;
+}
+
 .card img {
-  width: 180px;
+  width: 200px;
   max-height: 120px;
   margin: 20px auto;
 }
@@ -62,9 +67,4 @@ body {
 
 .caracteristicas p {
   color: #404060;
-}
-
-.hp span {
-  /* color: blue; */
-  font-size: 0.8rem;
 }
