@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background: #f1f1f1;
+    padding: 5px 10%;
+}
+
+.titulo{
+    font-size: 2rem;
+    margin: 2rem 0;
+}
+
+.lancamento li{
+    background: white;
+    list-style: none;
+    padding: 1rem;
+    border-radius: 10px;
+    display: flex;
+    margin-bottom: 1rem;
+} 
+
+.lancamento li img{
+    width: 30%;
+    border-radius: 4px;
+}
+
+.filme-informacoes{
+    margin-left: 1rem;
+}
+
+.filme-titulo{
+    display: block;
+    font-weight: bold;
+    font-size: 1.6rem;
+    padding-bottom: 0.8rem;
+}
+
+.filme-genero{
+    display: block;
+    font-size: 0.9rem;
+    color: #888;
+}
+
+.filme-sinopse{
+    font-size: 1.1rem;
+    padding-top: 1.4rem;
+}
