@@ -1,0 +1,19 @@
+#elementos{
+    transition: 1s;
+}
+
+#buttons{
+    background: orange;
+    display: inline-block;
+    padding: 20px;
+    margin-top: 10px;
+    border: 2px solid black;
+}
+
+.hide{
+    opacity: 0;
+}
+
+.show{
+    opacity: 1;
+}
