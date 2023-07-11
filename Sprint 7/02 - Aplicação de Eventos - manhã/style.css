@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  list-style: none;
+  font-size: 18px;
+}
+
+body {
+  width: 90%;
+  margin: 0.9rem auto;
+  /* border: 2px solid black; */
+  background: #ddd;
+}
+
+.container {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.produtos-container {
+  width: 70%;
+  display: flex;
+  /* flex: 1 1 70%; */
+  flex-direction: column;
+  gap: 0.5rem;
+
+  /* border-right: 1px solid black; */
+}
+
+.barra-lateral {
+  width: 30%;
+  /* flex: 1 1 30%; */
+  background-color: rgb(254 178 36);
+  text-align: center;
+}
+
+.caixa {
+  display: flex;
+  /* border: 1px solid black; */
+  background: white;
+}
+
+.caixa-img {
+  width: 50%;
+  height: 170px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border-right: 1px solid black; */
+}
+
+img {
+  max-width: 90%;
+  max-height: 90%;
+}
+
+.informacoes-produto {
+  width: 50%;
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 1rem;
+}
+
+.btn-adicionar-carrinho {
+  border: none;
+  border-radius: 14px;
+  cursor: pointer;
+  background-color: rgb(254 178 36);
+}
+
+.btn-adicionar-carrinho:hover {
+  background-color: #333;
+  color: white;
+}
+
+#titulo-carrinho {
+  margin: 0.5rem;
+}
