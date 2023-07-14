@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+  text-align: center;
+  padding: 0;
+  margin: 0 auto;
+  list-style: none;
+}
+
+body {
+  background-color: rgba(241, 241, 241, 0.898);
+}
+
+.tabuleiro-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.tabuleiro {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem;
+  margin: 1rem;
+  width: 300px;
+}
+
+.posicao {
+  height: 44px;
+  width: 20%;
+  background-color: rgb(102, 102, 247);
+  border: 2px solid rgb(255, 255, 255);
+  cursor: pointer;
+}
